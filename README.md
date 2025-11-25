@@ -1,6 +1,6 @@
 A simple, interactive application that allows users to browse and search drug names by category, then click on any drug to view full details.
-
-!{a diplay result}(n1.png)
+![a display of results](n1.png)
+![a display of results](n2.png)
 
 📌 Project Overview
 
