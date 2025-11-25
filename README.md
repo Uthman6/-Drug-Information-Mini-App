@@ -1,66 +1,95 @@
-A simple, easy-to-use application that allows users to browse a list of drugs and view detailed information about each one.
+A simple, interactive application that allows users to browse and search drug names by category, then click on any drug to view full details.
 
 📌 Project Overview
 
-This mini app was developed to make drug information easily accessible.
-Users can scroll through a list of drug names, and by clicking on any drug, the app displays detailed information such as its uses, dosage, side effects, and additional notes.
+This mini app was created to make drug information easy to find and understand.
+Users can browse drugs, filter by category, search for medicines by name, and view complete drug details such as uses, dosage, and side effects.
 
-The goal of the project is to demonstrate how data can be collected, processed, stored, and deployed using modern no-code/low-code tools.
+The project demonstrates how SQL, Google Sheets, and AppSheet can work together to build a clean, functional health information tool.
 
 🛠️ Tools & Technologies Used
 1. SQL (Data Generation)
 
-Used SQL queries to generate, structure, and clean the initial drug dataset.
+Structured and cleaned drug data using SQL.
 
-Ensured the data was well-formatted and consistent before exporting.
+Added a category field for each drug (e.g., antibiotics, analgesics, antihistamines, etc.).
 
 2. Google Sheets (Data Storage)
 
-The cleaned SQL dataset was uploaded into Google Sheets.
+Served as the backend database.
 
-The sheet acts as the backend database for the app.
+Contains drug name, category, details, side effects, dosage, and more.
 
 3. AppSheet (App Development & Deployment)
 
-Built the interactive mini app using AppSheet.
+Used to build the app interface.
 
-Features include:
+Key features include:
 
-List of drugs
+Drug list
 
-Click-to-view detailed drug info
+Drug categories
 
-Responsive and mobile-friendly interface
+Search bar for quick lookup
 
-AppSheet connects directly to Google Sheets for real-time updates.
+Filter drugs by category
+
+Click-to-view drug information
+
+Real-time connection to Google Sheets
+
+Mobile-friendly interface
+
+Additional improvements added later
 
 4. Google Drive (Dataset Hosting)
 
-Google Drive was used to store the dataset file before linking it to Google Sheets and AppSheet.
+Used to upload and manage the dataset files.
 
 ✨ Features
 
-
-✅ Clean list of drug names
-✅ Click on any drug to view full details
-✅ Automatically updates when the dataset changes
-✅ Deployed online using AppSheet
-✅ Works on both desktop and mobile devices
+✅ List of drug names
+✅ Categories (e.g., Antibiotics, Painkillers, Antimalarials, etc.)
+✅ Filter drugs by category
+✅ Search drug names quickly
+✅ Click to view full information
+✅ Automatically updates from Google Sheets
+✅ Smooth UI on web and mobile
+✅ Later improvements added for better navigation and layout
 
 📂 Project Structure
 /dataset
-    └── drugs_data.xlsx (Generated with SQL)
+    └── drugs_data.xlsx
 
 app/
     └── AppSheet Project Files
-!{a display result}
+
+README.md
 
 🚀 How It Works
 
-SQL was used to create the structured drug dataset.
+SQL used to generate and categorize drug data.
 
-The dataset was uploaded to Google Sheets for easy access and modification.
+Data uploaded to Google Sheets.
 
-AppSheet reads the data from Google Sheets and generates an interactive UI.
+AppSheet connects and builds the UI.
 
-The final app is deployed and accessible online.
+Users can:
+
+Browse drugs by category
+
+Search for any medicine
+
+Click to view full drug details
+
+Additional improvements added later for smoother experience.
+
+📈 Future Improvements
+
+Add icons or images for each category
+
+Add sub-categories (e.g., painkillers → NSAIDs, opioids)
+
+Add dosage calculators
+
+Allow users to bookmark favorite drugs
