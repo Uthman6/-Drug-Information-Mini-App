@@ -1,5 +1,7 @@
 A simple, interactive application that allows users to browse and search drug names by category, then click on any drug to view full details.
 
+!{a diplay result}(n1.png)
+
 📌 Project Overview
 
 This mini app was created to make drug information easy to find and understand.
@@ -49,22 +51,21 @@ Used to upload and manage the dataset files.
 ✨ Features
 
 ✅ List of drug names
+
 ✅ Categories (e.g., Antibiotics, Painkillers, Antimalarials, etc.)
+
 ✅ Filter drugs by category
+
 ✅ Search drug names quickly
+
 ✅ Click to view full information
+
 ✅ Automatically updates from Google Sheets
+
 ✅ Smooth UI on web and mobile
+
 ✅ Later improvements added for better navigation and layout
 
-📂 Project Structure
-/dataset
-    └── drugs_data.xlsx
-
-app/
-    └── AppSheet Project Files
-
-README.md
 
 🚀 How It Works
 
